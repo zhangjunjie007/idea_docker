@@ -15,7 +15,8 @@ public class TestLinuxExceptionController {
 
     @RequestMapping("/test")
     public String est(){
-
+        System.out.println("hahahhahahahhaha");
+        System.out.println("hahahhahahahhaha123");
         return "123";
     }
 }
