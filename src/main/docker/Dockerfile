@@ -17,5 +17,3 @@ COPY *.jar /data/app/app.jar
 # 容器启动执行命令
 ENTRYPOINT ["java", "-Xmx128m", "-jar", "/data/app/app.jar"]
 
-# 声明容器提供服务端口
-EXPOSE 8800
